@@ -5,6 +5,8 @@
     <classes>
       <class name="com.TravelTest.TestNG.ValidateLoginPage"/>
       <class name="com.TravelTest.TestNG.FlightSearchPage"/>
+      <class name="com.TravelTest.TestNG.FlightSearchPage"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

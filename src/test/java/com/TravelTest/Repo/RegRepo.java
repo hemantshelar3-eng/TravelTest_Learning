@@ -14,6 +14,7 @@ public class RegRepo {
 	
 	public RegRepo(WebDriver w) {
 		PageFactory.initElements(w, this);
+	
 	}
 	@FindBy(linkText = "Register") WebElement regLink;
 	@FindBy(id = "register-full-name-input") WebElement fullName; 

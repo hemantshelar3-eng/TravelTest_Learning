@@ -37,7 +37,7 @@ public void login() throws Exception {
 	r.clickLoginButton();
 	Thread.sleep(8000);
 }
-@Test (priority = 0) 
+@Test (priority = 2) 
 	public void searchFlight()  throws Exception{
 	fr =new FlightRepo(w);
 	Thread.sleep(2000);

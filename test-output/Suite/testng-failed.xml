@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.TravelTest.TestNG.ValidateLoginPage">
+        <methods>
+          <include name="closeBrower"/>
+          <include name="launchBrowserAndNavigateToTravelTestSite"/>
+          <include name="loginInvalidPassword"/>
+          <include name="loginInvalidEmail"/>
+        </methods>
+      </class> <!-- com.TravelTest.TestNG.ValidateLoginPage -->
+      <class name="com.TravelTest.TestNG.HotelSearchPage">
+        <methods>
+          <include name="closeBrower"/>
+          <include name="launchBrowserAndNavigateToTravelTestSite"/>
+          <include name="HotelAmountCalculationAfterCoupanAppy"/>
+          <include name="HotelPayment"/>
+        </methods>
+      </class> <!-- com.TravelTest.TestNG.HotelSearchPage -->
+      <class name="com.TravelTest.TestNG.FlightSearchPage">
+        <methods>
+          <include name="closeBrower"/>
+          <include name="searchFlightPastDate"/>
+          <include name="searchFlightBlackData"/>
+          <include name="searchFlightBlankDestination"/>
+          <include name="launchBrowserAndNavigateToTravelTestSite"/>
+        </methods>
+      </class> <!-- com.TravelTest.TestNG.FlightSearchPage -->
+      <class name="com.TravelTest.TestNG.RegisterUserPage">
+        <methods>
+          <include name="RegisterBlankPhone"/>
+          <include name="RegisterWithOutIagreeTerm"/>
+          <include name="RegisterAlreadyRegisterUser"/>
+          <include name="closeBrower"/>
+          <include name="UserRegisterInvalidPhone"/>
+          <include name="UserRegisterInvalidEmail"/>
+          <include name="FieldBlankRegister"/>
+          <include name="UserRegisterInvalidData"/>
+          <include name="launchBrowserAndNavigateToTravelTestSite"/>
+          <include name="UserRegisterUnmatchPassword"/>
+        </methods>
+      </class> <!-- com.TravelTest.TestNG.RegisterUserPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

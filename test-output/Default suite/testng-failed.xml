@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TravelTest.Runner.CucumberRunner">
+      <class name="com.TravelTest.TestNG.FlightSearchPage">
         <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="closeBrower"/>
+          <include name="searchFlightPastDate"/>
+          <include name="searchFlightBlackData"/>
+          <include name="launchBrowserAndNavigateToTravelTestSite"/>
+          <include name="searchFlightBlankDestination"/>
         </methods>
-      </class> <!-- com.TravelTest.Runner.CucumberRunner -->
+      </class> <!-- com.TravelTest.TestNG.FlightSearchPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

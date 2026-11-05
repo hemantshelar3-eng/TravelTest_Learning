@@ -1,62 +1,1084 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="32" passed="17" failed="15" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-05T10:16:30 IST" name="Default suite" finished-at="2026-09-05T10:16:51 IST" duration-ms="21139">
+  <suite started-at="2026-10-07T11:58:28 IST" name="Suite" finished-at="2026-10-07T12:12:17 IST" duration-ms="829319">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TravelTest.Runner.CucumberRunner@7c9d8e2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-09-05T10:16:30 IST" name="Default test" finished-at="2026-09-05T10:16:51 IST" duration-ms="21139">
-      <class name="com.TravelTest.Runner.CucumberRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TravelTest.Runner.CucumberRunner@7c9d8e2]" started-at="2026-09-05T10:16:30 IST" name="setUpClass" finished-at="2026-09-05T10:16:32 IST" duration-ms="1241" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@68f32020]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2026-10-07T11:58:28 IST" name="Test" finished-at="2026-10-07T12:12:17 IST" duration-ms="829319">
+      <class name="com.TravelTest.TestNG.HotelSearchPage">
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:06:28 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:06:30 IST" duration-ms="2799" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TravelTest.Runner.CucumberRunner@7c9d8e2]" started-at="2026-09-05T10:16:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-05T10:16:51 IST" duration-ms="19709" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify the functionality of login link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="searchHotelValidData()[pri:1, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:06:30 IST" name="searchHotelValidData" finished-at="2026-10-07T12:06:51 IST" duration-ms="20397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotelValidData -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:06:51 IST" name="closeBrower" finished-at="2026-10-07T12:06:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:06:51 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:06:53 IST" duration-ms="2692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="searchHotelInValidData()[pri:2, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:06:53 IST" name="searchHotelInValidData" finished-at="2026-10-07T12:07:16 IST" duration-ms="22121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotelInValidData -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:07:16 IST" name="closeBrower" finished-at="2026-10-07T12:07:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:07:16 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:07:18 IST" duration-ms="2412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="HotelBookin()[pri:3, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:07:18 IST" name="HotelBookin" finished-at="2026-10-07T12:08:05 IST" duration-ms="46895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelBookin -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:08:05 IST" name="closeBrower" finished-at="2026-10-07T12:08:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:08:05 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:08:08 IST" duration-ms="3097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="HotelPayment()[pri:4, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:08:08 IST" name="HotelPayment" finished-at="2026-10-07T12:09:17 IST" duration-ms="69382" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[The following asserts failed:
-expected [https://travel-test-bug.vercel.app/logins] but found [https://travel-test-bug.vercel.app/login]]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"button[data-testid="payment-pay-button"]"}
+  (Session info: chrome=154.0.8037.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd7fb73306a50c4521730c70eb5134ca, findElement {using=css selector, value=button[data-testid="payment-pay-button"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.98, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\Qccs\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58773}, goog:processID: 21736, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58773/devtoo..., se:cdpVersion: 154.0.8037.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd7fb73306a50c4521730c70eb5134ca]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [https://travel-test-bug.vercel.app/logins] but found [https://travel-test-bug.vercel.app/login]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at com.TravelTest.cucumberStepDefiniation.LoginLink.verify_login_page_has_been_open_or_not(LoginLink.java:51)
-at ✽.verify login page has been open or not(file:///D:/Software%20Testing/Eclipse/TravelTest/ScenarioInFeatureFormat/Login.feature:12)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"button[data-testid="payment-pay-button"]"}
+  (Session info: chrome=154.0.8037.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd7fb73306a50c4521730c70eb5134ca, findElement {using=css selector, value=button[data-testid="payment-pay-button"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.98, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\Qccs\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58773}, goog:processID: 21736, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58773/devtoo..., se:cdpVersion: 154.0.8037.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd7fb73306a50c4521730c70eb5134ca
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
+at com.TravelTest.Repo.HotelRepo.UPIPayConfirmed(HotelRepo.java:141)
+at com.TravelTest.TestNG.HotelSearchPage.HotelPayment(HotelSearchPage.java:175)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelPayment -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:09:17 IST" name="closeBrower" finished-at="2026-10-07T12:09:18 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:09:18 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:09:21 IST" duration-ms="2688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="ValidateHotelSeachButtonBlankData()[pri:6, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:09:21 IST" name="ValidateHotelSeachButtonBlankData" finished-at="2026-10-07T12:09:51 IST" duration-ms="30140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHotelSeachButtonBlankData -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:09:51 IST" name="closeBrower" finished-at="2026-10-07T12:09:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:09:51 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:09:54 IST" duration-ms="3553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="hotelSuggestValidationInvalidData()[pri:7, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:09:54 IST" name="hotelSuggestValidationInvalidData" finished-at="2026-10-07T12:10:38 IST" duration-ms="43726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelSuggestValidationInvalidData -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:10:38 IST" name="closeBrower" finished-at="2026-10-07T12:10:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:10:38 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:10:41 IST" duration-ms="2779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="CoupanValidation()[pri:8, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:10:41 IST" name="CoupanValidation" finished-at="2026-10-07T12:11:54 IST" duration-ms="72806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CoupanValidation -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:11:54 IST" name="closeBrower" finished-at="2026-10-07T12:11:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:11:54 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:11:57 IST" duration-ms="2908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="HotelAmountCalculationAfterCoupanAppy()[pri:9, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:11:57 IST" name="HotelAmountCalculationAfterCoupanAppy" finished-at="2026-10-07T12:12:17 IST" duration-ms="20277" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=154.0.8037.98)
+Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c3f39fbda57a3d9351a8b0a2774f3bd, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.98, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\Qccs\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59061}, goog:processID: 22024, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59061/devtoo..., se:cdpVersion: 154.0.8037.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c3f39fbda57a3d9351a8b0a2774f3bd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=154.0.8037.98)
+Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c3f39fbda57a3d9351a8b0a2774f3bd, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.98, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\Qccs\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59061}, goog:processID: 22024, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59061/devtoo..., se:cdpVersion: 154.0.8037.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c3f39fbda57a3d9351a8b0a2774f3bd
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:735)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:739)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1240)
+at com.TravelTest.Repo.HotelRepo.Hotels(HotelRepo.java:49)
+at com.TravelTest.TestNG.HotelSearchPage.HotelAmountCalculationAfterCoupanAppy(HotelSearchPage.java:344)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelAmountCalculationAfterCoupanAppy -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.HotelSearchPage@77f1baf5]" started-at="2026-10-07T12:12:17 IST" name="closeBrower" finished-at="2026-10-07T12:12:17 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+      </class> <!-- com.TravelTest.TestNG.HotelSearchPage -->
+      <class name="com.TravelTest.TestNG.RegisterUserPage">
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:00:35 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:00:40 IST" duration-ms="5108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="VerifyRegisterLink()[pri:1, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:00:40 IST" name="VerifyRegisterLink" finished-at="2026-10-07T12:00:42 IST" duration-ms="2127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisterLink -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:00:42 IST" name="closeBrower" finished-at="2026-10-07T12:00:42 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:00:42 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:00:45 IST" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="UserRegistervalidData()[pri:2, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:00:45 IST" name="UserRegistervalidData" finished-at="2026-10-07T12:01:04 IST" duration-ms="19090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserRegistervalidData -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:01:04 IST" name="closeBrower" finished-at="2026-10-07T12:01:05 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:01:05 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:01:06 IST" duration-ms="1600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="UserRegisterInvalidData()[pri:3, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:01:06 IST" name="UserRegisterInvalidData" finished-at="2026-10-07T12:01:25 IST" duration-ms="18906" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://travel-test-bug.vercel.app/register] but found [https://travel-test-bug.vercel.app/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://travel-test-bug.vercel.app/register] but found [https://travel-test-bug.vercel.app/login]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.TravelTest.TestNG.RegisterUserPage.UserRegisterInvalidData(RegisterUserPage.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TravelTest.Runner.CucumberRunner@7c9d8e2]" started-at="2026-09-05T10:16:51 IST" name="tearDownClass" finished-at="2026-09-05T10:16:51 IST" duration-ms="43" status="PASS">
+        </test-method> <!-- UserRegisterInvalidData -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:01:25 IST" name="closeBrower" finished-at="2026-10-07T12:01:25 IST" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.TravelTest.Runner.CucumberRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:01:25 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:01:27 IST" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="UserRegisterInvalidEmail()[pri:4, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:01:27 IST" name="UserRegisterInvalidEmail" finished-at="2026-10-07T12:01:46 IST" duration-ms="19097" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://travel-test-bug.vercel.app/register] but found [https://travel-test-bug.vercel.app/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://travel-test-bug.vercel.app/register] but found [https://travel-test-bug.vercel.app/login]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.TravelTest.TestNG.RegisterUserPage.UserRegisterInvalidEmail(RegisterUserPage.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserRegisterInvalidEmail -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:01:46 IST" name="closeBrower" finished-at="2026-10-07T12:01:46 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:01:46 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:01:48 IST" duration-ms="1500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="UserRegisterInvalidPhone()[pri:5, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:01:48 IST" name="UserRegisterInvalidPhone" finished-at="2026-10-07T12:02:07 IST" duration-ms="19101" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://travel-test-bug.vercel.app/register] but found [https://travel-test-bug.vercel.app/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://travel-test-bug.vercel.app/register] but found [https://travel-test-bug.vercel.app/login]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.TravelTest.TestNG.RegisterUserPage.UserRegisterInvalidPhone(RegisterUserPage.java:133)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserRegisterInvalidPhone -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:02:07 IST" name="closeBrower" finished-at="2026-10-07T12:02:07 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:02:07 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:02:09 IST" duration-ms="1846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="UserRegisterUnmatchPassword()[pri:6, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:02:09 IST" name="UserRegisterUnmatchPassword" finished-at="2026-10-07T12:02:28 IST" duration-ms="19224" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://travel-test-bug.vercel.app/register] but found [https://travel-test-bug.vercel.app/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://travel-test-bug.vercel.app/register] but found [https://travel-test-bug.vercel.app/login]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.TravelTest.TestNG.RegisterUserPage.UserRegisterUnmatchPassword(RegisterUserPage.java:161)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserRegisterUnmatchPassword -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:02:28 IST" name="closeBrower" finished-at="2026-10-07T12:02:28 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:02:28 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:02:30 IST" duration-ms="1556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="RegisterWithOutIagreeTerm()[pri:7, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:02:30 IST" name="RegisterWithOutIagreeTerm" finished-at="2026-10-07T12:02:47 IST" duration-ms="17060" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://travel-test-bug.vercel.app/register] but found [https://travel-test-bug.vercel.app/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://travel-test-bug.vercel.app/register] but found [https://travel-test-bug.vercel.app/login]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.TravelTest.TestNG.RegisterUserPage.RegisterWithOutIagreeTerm(RegisterUserPage.java:188)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithOutIagreeTerm -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:02:47 IST" name="closeBrower" finished-at="2026-10-07T12:02:47 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:02:47 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:02:49 IST" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="RegisterAlreadyRegisterUser()[pri:8, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:02:49 IST" name="RegisterAlreadyRegisterUser" finished-at="2026-10-07T12:03:06 IST" duration-ms="16963" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://travel-test-bug.vercel.app/register] but found [https://travel-test-bug.vercel.app/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://travel-test-bug.vercel.app/register] but found [https://travel-test-bug.vercel.app/login]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.TravelTest.TestNG.RegisterUserPage.RegisterAlreadyRegisterUser(RegisterUserPage.java:215)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterAlreadyRegisterUser -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:03:06 IST" name="closeBrower" finished-at="2026-10-07T12:03:06 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:03:06 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:03:08 IST" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="FieldBlankRegister()[pri:9, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:03:08 IST" name="FieldBlankRegister" finished-at="2026-10-07T12:03:12 IST" duration-ms="4254" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://travel-test-bug.vercel.app/register] but found [https://travel-test-bug.vercel.app/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://travel-test-bug.vercel.app/register] but found [https://travel-test-bug.vercel.app/login]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.TravelTest.TestNG.RegisterUserPage.FieldBlankRegister(RegisterUserPage.java:230)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FieldBlankRegister -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:03:12 IST" name="closeBrower" finished-at="2026-10-07T12:03:12 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:03:12 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:03:14 IST" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="RegisterBlankPhone()[pri:10, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:03:14 IST" name="RegisterBlankPhone" finished-at="2026-10-07T12:03:31 IST" duration-ms="17030" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://travel-test-bug.vercel.app/register] but found [https://travel-test-bug.vercel.app/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://travel-test-bug.vercel.app/register] but found [https://travel-test-bug.vercel.app/login]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.TravelTest.TestNG.RegisterUserPage.RegisterBlankPhone(RegisterUserPage.java:257)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterBlankPhone -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.RegisterUserPage@24313fcc]" started-at="2026-10-07T12:03:31 IST" name="closeBrower" finished-at="2026-10-07T12:03:31 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+      </class> <!-- com.TravelTest.TestNG.RegisterUserPage -->
+      <class name="com.TravelTest.TestNG.ValidateLoginPage">
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:58:28 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T11:58:30 IST" duration-ms="2316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="ValidateLoginLink()[pri:1, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:58:30 IST" name="ValidateLoginLink" finished-at="2026-10-07T11:58:33 IST" duration-ms="2458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginLink -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:58:33 IST" name="closeBrower" finished-at="2026-10-07T11:58:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:58:33 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T11:58:34 IST" duration-ms="1482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="loginValidCredintial()[pri:2, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:58:34 IST" name="loginValidCredintial" finished-at="2026-10-07T11:58:51 IST" duration-ms="16904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidCredintial -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:58:51 IST" name="closeBrower" finished-at="2026-10-07T11:58:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:58:51 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T11:58:52 IST" duration-ms="1356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="loginvalidCredential()[pri:3, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:58:52 IST" name="loginvalidCredential" finished-at="2026-10-07T11:59:09 IST" duration-ms="16909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginvalidCredential -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:59:09 IST" name="closeBrower" finished-at="2026-10-07T11:59:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:59:09 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T11:59:12 IST" duration-ms="2879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="loginInvalidPassword()[pri:4, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:59:12 IST" name="loginInvalidPassword" finished-at="2026-10-07T11:59:29 IST" duration-ms="16567" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://travel-test-bug.vercel.app/login] but found [https://travel-test-bug.vercel.app/login?session=expired&from=%2F]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://travel-test-bug.vercel.app/login] but found [https://travel-test-bug.vercel.app/login?session=expired&from=%2F]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.TravelTest.TestNG.ValidateLoginPage.loginInvalidPassword(ValidateLoginPage.java:95)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidPassword -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:59:29 IST" name="closeBrower" finished-at="2026-10-07T11:59:29 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:59:29 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T11:59:31 IST" duration-ms="1482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="loginInvalidEmail()[pri:5, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:59:31 IST" name="loginInvalidEmail" finished-at="2026-10-07T11:59:47 IST" duration-ms="16699" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://travel-test-bug.vercel.app/login] but found [https://travel-test-bug.vercel.app/login?session=expired&from=%2F]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://travel-test-bug.vercel.app/login] but found [https://travel-test-bug.vercel.app/login?session=expired&from=%2F]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.TravelTest.TestNG.ValidateLoginPage.loginInvalidEmail(ValidateLoginPage.java:120)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidEmail -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:59:47 IST" name="closeBrower" finished-at="2026-10-07T11:59:47 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:59:47 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T11:59:49 IST" duration-ms="1417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="loginBlankEmailPassword()[pri:6, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T11:59:49 IST" name="loginBlankEmailPassword" finished-at="2026-10-07T12:00:06 IST" duration-ms="16853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBlankEmailPassword -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T12:00:06 IST" name="closeBrower" finished-at="2026-10-07T12:00:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T12:00:06 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:00:07 IST" duration-ms="1609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="MaskingLogoShow()[pri:7, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T12:00:07 IST" name="MaskingLogoShow" finished-at="2026-10-07T12:00:18 IST" duration-ms="10687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaskingLogoShow -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T12:00:18 IST" name="closeBrower" finished-at="2026-10-07T12:00:18 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T12:00:18 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:00:20 IST" duration-ms="1483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="MaskingLogoHide()[pri:8, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T12:00:20 IST" name="MaskingLogoHide" finished-at="2026-10-07T12:00:35 IST" duration-ms="14991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaskingLogoHide -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.ValidateLoginPage@3eb25e1a]" started-at="2026-10-07T12:00:35 IST" name="closeBrower" finished-at="2026-10-07T12:00:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+      </class> <!-- com.TravelTest.TestNG.ValidateLoginPage -->
+      <class name="com.TravelTest.TestNG.FlightSearchPage">
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:03:31 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:03:32 IST" duration-ms="1361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="FlightBookingButton()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:03:32 IST" name="FlightBookingButton" finished-at="2026-10-07T12:04:02 IST" duration-ms="29324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightBookingButton -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:04:02 IST" name="closeBrower" finished-at="2026-10-07T12:04:02 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:04:02 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:04:04 IST" duration-ms="1823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="searchFlight()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:04:04 IST" name="searchFlight" finished-at="2026-10-07T12:04:37 IST" duration-ms="33345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlight -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:04:37 IST" name="closeBrower" finished-at="2026-10-07T12:04:37 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:04:37 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:04:39 IST" duration-ms="1664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="searchFlightBlackData()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:04:39 IST" name="searchFlightBlackData" finished-at="2026-10-07T12:05:00 IST" duration-ms="21038" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:400)
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:128)
+at com.TravelTest.Repo.FlightRepo.flightsSource(FlightRepo.java:32)
+at com.TravelTest.TestNG.FlightSearchPage.searchFlightBlackData(FlightSearchPage.java:141)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightBlackData -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:05:00 IST" name="closeBrower" finished-at="2026-10-07T12:05:00 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:05:00 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:05:02 IST" duration-ms="1827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="searchFlightBlankDate()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:05:02 IST" name="searchFlightBlankDate" finished-at="2026-10-07T12:05:31 IST" duration-ms="29224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightBlankDate -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:05:31 IST" name="closeBrower" finished-at="2026-10-07T12:05:32 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:05:32 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:05:33 IST" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="searchFlightBlankDestination()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:05:33 IST" name="searchFlightBlankDestination" finished-at="2026-10-07T12:05:56 IST" duration-ms="23028" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:400)
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:128)
+at com.TravelTest.Repo.FlightRepo.flightsDestination(FlightRepo.java:39)
+at com.TravelTest.TestNG.FlightSearchPage.searchFlightBlankDestination(FlightSearchPage.java:176)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightBlankDestination -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:05:56 IST" name="closeBrower" finished-at="2026-10-07T12:05:56 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="launchBrowserAndNavigateToTravelTestSite()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:05:56 IST" name="launchBrowserAndNavigateToTravelTestSite" finished-at="2026-10-07T12:05:58 IST" duration-ms="1431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndNavigateToTravelTestSite -->
+        <test-method signature="searchFlightPastDate()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:05:58 IST" name="searchFlightPastDate" finished-at="2026-10-07T12:06:27 IST" duration-ms="29327" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://travel-test-bug.vercel.app/flights/search] but found [https://travel-test-bug.vercel.app/flights/results]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://travel-test-bug.vercel.app/flights/search] but found [https://travel-test-bug.vercel.app/flights/results]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.TravelTest.TestNG.FlightSearchPage.searchFlightPastDate(FlightSearchPage.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightPastDate -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.TravelTest.TestNG.FlightSearchPage@7d20d0b]" started-at="2026-10-07T12:06:27 IST" name="closeBrower" finished-at="2026-10-07T12:06:28 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+      </class> <!-- com.TravelTest.TestNG.FlightSearchPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

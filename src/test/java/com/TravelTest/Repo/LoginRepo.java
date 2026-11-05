@@ -16,7 +16,7 @@ public class LoginRepo {
 	private By showOrHidePassword = By.cssSelector("button[data-testid=\"login-password-toggle-button\"]");
 	private By rememberMe = By.cssSelector("input[data-testid=\"login-remember-checkbox\"]");
     private By forgotPassword = By.cssSelector("a[data-testid=\"login-forgot-password-link\"]");
-	private By loginButton = By.cssSelector("button[data-testid=\"login-submit-butto\"]");
+	private By loginButton = By.cssSelector("button[data-testid=\"login-submit-button\"]");
 
 	public void loginLink() {
 		w.findElement(LoginLink).click();
@@ -51,6 +51,9 @@ public class LoginRepo {
 		}
 		public void clickLoginButton() {
 			w.findElement(loginButton).click();
+		}
+		public String getPassword() {
+			return w.findElement(Password).getDomAttribute("type");
 		}
 
 }
